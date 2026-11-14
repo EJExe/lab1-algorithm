@@ -1,0 +1,11 @@
+/build/
+/Lab1
+/hammurabi.save
+.DS_Store
+/bin/
+/obj/
+/.vs/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.vcxproj.user

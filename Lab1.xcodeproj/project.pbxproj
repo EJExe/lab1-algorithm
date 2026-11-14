@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A10000000000000000000001 = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+  A10000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lab1.cpp; sourceTree = "<group>"; };
+  A10000000000000000000003 = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab1; sourceTree = BUILT_PRODUCTS_DIR; };
+  A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000002, A10000000000000000000005); sourceTree = "<group>"; };
+  A10000000000000000000005 = {isa = PBXGroup; children = (A10000000000000000000003); name = Products; sourceTree = "<group>"; };
+  A10000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+  A10000000000000000000007 = {
+   isa = PBXNativeTarget;
+   buildConfigurationList = A10000000000000000000009;
+   buildPhases = (A10000000000000000000006);
+   buildRules = ();
+   dependencies = ();
+   name = Lab1;
+   productName = Lab1;
+   productReference = A10000000000000000000003;
+   productType = "com.apple.product-type.tool";
+  };
+  A10000000000000000000008 = {
+   isa = PBXProject;
+   attributes = {LastUpgradeCheck = 1600; };
+   buildConfigurationList = A1000000000000000000000A;
+   compatibilityVersion = "Xcode 14.0";
+   developmentRegion = en;
+   hasScannedForEncodings = 0;
+   knownRegions = (en, Base);
+   mainGroup = A10000000000000000000004;
+   productRefGroup = A10000000000000000000005;
+   projectDirPath = "";
+   projectRoot = "";
+   targets = (A10000000000000000000007);
+  };
+  A10000000000000000000009 = {isa = XCConfigurationList; buildConfigurations = (A1000000000000000000000B, A1000000000000000000000C); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A1000000000000000000000A = {isa = XCConfigurationList; buildConfigurations = (A1000000000000000000000D, A1000000000000000000000E); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A1000000000000000000000B = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Debug; };
+  A1000000000000000000000C = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Release; };
+  A1000000000000000000000D = {
+   isa = XCBuildConfiguration;
+   buildSettings = {
+    CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+    CLANG_CXX_LIBRARY = "libc++";
+    CODE_SIGNING_ALLOWED = NO;
+    GCC_OPTIMIZATION_LEVEL = 0;
+    GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+    GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+    GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+    GCC_WARN_UNUSED_VARIABLE = YES;
+    MACOSX_DEPLOYMENT_TARGET = 12.0;
+    ONLY_ACTIVE_ARCH = YES;
+    SDKROOT = macosx;
+   };
+   name = Debug;
+  };
+  A1000000000000000000000E = {
+   isa = XCBuildConfiguration;
+   buildSettings = {
+    CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+    CLANG_CXX_LIBRARY = "libc++";
+    CODE_SIGNING_ALLOWED = NO;
+    GCC_OPTIMIZATION_LEVEL = 2;
+    GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+    GCC_WARN_UNUSED_VARIABLE = YES;
+    MACOSX_DEPLOYMENT_TARGET = 12.0;
+    SDKROOT = macosx;
+   };
+   name = Release;
+  };
+ };
+ rootObject = A10000000000000000000008;
+}
